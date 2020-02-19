@@ -1,5 +1,5 @@
 .body-background {
-    background: url(images/pink-plant.jpg);
+    background: url(images/pink-smoke.jpg);
     background-size: cover;
     background-position: center; 
     background-repeat: repeat-x;
@@ -10,24 +10,41 @@
 h1 {
     font-family: "Great Vibes", cursive;
     font-size: 130px;
-    color: white;
+    color: rgb(170, 57, 75);
 }
 
 .title {
     font-family: "Great Vibes", cursive;
     font-size: 30px;
-    color: white;
+    color:  rgb(170, 57, 75);;
 }
+
 #about {
     font-family: "Monsterrat",sans-serif;
     font-size: 40px;
+    color: rgb(170, 57, 75);
 }
+
 .description {
-    color: white;
+    color:  rgb(170, 57, 75);
     font-family: "Monsterrat", sans-serif;
     font-size: 20px;
 }
-.navbar-fixed-top {
-    padding: 40px;
-    
+.navbar {
+    background-color: red;
+}
+
+#home {
+    font-size: 30px;
+    font-family: "Monsterrat", sans-serif;
+}
+#find-me {
+    font-size: 30px;
+    font-family: "Monsterrat", sans-serif;
+    color: black;
+}
+#dark-mode {
+    font-size: 30px;
+    font-family: "Monsterrat", sans-serif;
+    color: black;
 }
