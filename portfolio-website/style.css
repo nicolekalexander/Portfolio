@@ -1,0 +1,40 @@
+.container-fluid {
+    background-image: url(images/pinapples.jpg);
+}
+.nav-link {
+    font-family: "Oswald", sans-serif;
+}
+.find-me {
+    font-family: "Oswald", sans-serif;
+}
+.linkedin {
+    font-family: "Oswald", sans-serif;
+}
+.github {
+    font-family: "Oswald", sans-serif;
+}
+.email {
+    font-family: "Oswald", sans-serif;
+}
+.close {
+    font-family: "Oswald", sans-serif;
+}
+.display-4 {
+    font-family: "Pacifico", cursive;
+    font-size: 70px;
+}
+.lead {
+    font-family: "Oswald", sans-serif;
+}
+.description {
+    font-family: "Oswald", sans-serif;
+}
+.card-title {
+    font-family: "Pacifico", cursive;
+}
+.card-text {
+    font-family: "Oswald", sans-serif;
+}
+.card-link {
+    font-family: "Oswald", sans-serif;
+}
