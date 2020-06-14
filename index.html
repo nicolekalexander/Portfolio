@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nicole's Portfolio</title>
     <link rel="shortcut icon" href="images/pineapple.ico" type="image/x-icon">
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cyborg/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GKugkVcT8wqoh3M8z1lqHbU+g6j498/ZT/zuXbepz7Dc09/otQZxTimkEMTkRWHP" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-b+jboW/YIpW2ZZYyYdXczKK6igHlnkPNfN9kYAbqYV7rNQ9PKTXlS2D6j1QZIATW" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -31,11 +31,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="text-warning nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="text-info nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
                         Find Me
                     </button>
                     <!-- Modal -->
@@ -67,82 +67,100 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <div class="bg-default jumbotron">
-                    <h1 class="display-4">Nicole Krystal Alexander</h1>
-                    <p class="lead">Junior Web Developer</p>
-                    <hr class="my-4">
-                    <p style="max-width: 600px;">I enjoy enhancing users’ experiences with simple and modern
-                        typography, on a responsive webpage. Together,
-                        these elements create an exciting and enjoyable user journey. </p>
-                </div>
+        <div class="row bg-primary jumbotron">
+            <div class="col-md-6">
+                <h1 class="text-dark display-4">Nicole Krystal Alexander</h1>
+                <p class="text-dark lead">Junior Web Developer</p>
+            </div>
+            <div class="col-md-6">
+                <p class="description text-dark" style="max-width: 600px;">Junior web developer with an interest in
+                    simple and straight-forward responsive web applications. </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="bg-success text-light card-body">
-                        <h5 class="card-title">Neurotransmitter Guessing Game</h5>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">Fun guessing game I made with javascript that asks the user to select the correct neurotransmitter being described.</p>
-                        <a href="https://github.com/nicolekalexander/Neurotransmitter-Guessing-Game"
-                            class="card-link text-light">Github</a>
-                        <a href="https://nicolekalexander.github.io/Neurotransmitter-Guessing-Game/"
-                            class="card-link text-light">Website</a>
-                    </div>
+    </div>
+    <div class="row">
+        <div class="col card-group">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <h5 class="text-info card-title">Neurotransmitter Quiz</h5>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="bg-success text-light card-body">
-                        <h5 class="card-title">BMI Calculator</h5>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">Web application using jquery that calculates user's bmi by having them input their height and weight.</p>
-                        <a href="https://github.com/nicolekalexander/bmi-calculator"
-                            class="card-link text-light">Github</a>
-                        <a href="https://nicolekalexander.github.io/bmi-calculator/"
-                            class="card-link text-light">Website</a>
-                    </div>
+                <div class="bg-secondary card-body">
+                    <p class="text-info card-text">Fun guessing game I made with javascript that asks the user to
+                        select the correct neurotransmitter being described.</p>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="bg-success text-light card-body">
-                        <h5 class="card-title">Which Food Has More...</h5>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">This is a small game that asks the user to compare two foods and guess which has more added sugar, calories, or saturated fat.</p>
-                        <a href="https://github.com/nicolekalexander/Which-Food-Has-More"
-                            class="card-link text-light">Github</a>
-                        <a href="https://nicolekalexander.github.io/Which-Food-Has-More/"
-                            class="card-link text-light">Website</a>
-                    </div>
-                </div>
-            </div>  
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="bg-primary text-light card-body">
-                        <h5 class="card-title">Memory Balls</h5>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">This is a simple html webpage showcasing mockups I produced for levels of a javascript game, Memory Balls.</p>
-                        <a href="https://nicolekalexander.github.io/Memory-Balls-UI/" class="text-light card-link">UI
-                            Design</a>
-                        <a href="https://unichord-apps.com/memoryballs/" class="text-light card-link">Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="bg-warning text-light card-body">
-                        <h5 class="card-title">Yoga Express</h5>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                        <p class="card-text">This is a node express web application with pug as the frontend framework.</p>
-                        <a href="https://github.com/nicolekalexander/Yoga-Express" class="text-light card-link">Github</a>
-                    </div>
+                <div class="card-footer">
+                    <a href="https://github.com/nicolekalexander/Neurotransmitter-Guessing-Game"
+                        class="card-link text-info">Github</a>
+                    <a href="https://nicolekalexander.github.io/Neurotransmitter-Guessing-Game/"
+                        class="card-link text-info">Website</a>
                 </div>
             </div>
 
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <h5 class="text-info card-title">BMI Calculator</h5>
+                </div>
+                <div class="bg-secondary card-body">
+                    <p class="text-info card-text">Web application using jquery that calculates user's bmi by
+                        having
+                        them input their height and weight.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/nicolekalexander/bmi-calculator" class="card-link text-info">Github</a>
+                    <a href="https://nicolekalexander.github.io/bmi-calculator/" class="card-link text-info">Website</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <h5 class="text-info card-title">Which Food Has More...</h5>
+                </div>
+                <div class="bg-secondary card-body">
+                    <p class="text-info card-text">This is a small game that asks the user to compare two foods
+                        and
+                        guess which has more added sugar, calories, or saturated fat.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/nicolekalexander/Which-Food-Has-More"
+                        class="card-link text-info">Github</a>
+                    <a href="https://nicolekalexander.github.io/Which-Food-Has-More/"
+                        class="card-link text-info">Website</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <h5 class="text-info card-title">Memory Balls</h5>
+                </div>
+                <div class="bg-secondary text-light card-body">
+                    <p class="text-info card-text">This is a simple html webpage showcasing mockups I produced
+                        for
+                        levels of a javascript game, Memory Balls.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://nicolekalexander.github.io/Memory-Balls-UI/" class="text-info card-link">UI
+                        Design</a>
+                    <a href="https://unichord-apps.com/memoryballs/" class="text-info card-link">Website</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    <h5 class="text-info card-title">Yoga Express</h5>
+                </div>
+                <div class="bg-secondary card-body">
+                    <p class="text-info card-text">This is a node express web application with pug as the
+                        frontend
+                        framework.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/nicolekalexander/Yoga-Express" class="text-info card-link">Github</a>
+                </div>
+            </div>
         </div>
+
+
+    </div>
     </div>
 </body>
 
