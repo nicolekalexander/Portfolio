@@ -1,4 +1,13 @@
+.body {
+    background-color: #957dad;
+}
+/* .jumbotron {
+    background-color: #957dad;
+} */
 .card-deck {
     width: 1000px;
-     margin: auto;
+    margin: auto;
+}
+.LinkedIn, .Github, .Email {
+    color:#957dad;
 }
